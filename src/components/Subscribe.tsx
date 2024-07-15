@@ -9,7 +9,6 @@ const Subscribe = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-  console.log('test')
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
